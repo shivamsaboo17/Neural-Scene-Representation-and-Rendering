@@ -8,5 +8,4 @@ Generative Query Network for rendering 3D scenes from 2D images
 
 ## Learning to see
 Making machines understand the scene is a very challenging task for AI. This is implementation of a neural network which is capable of rendering 3D scenes using just a few 2D images. In general case, it may be impossible to predict arbritary view of the scene from finite set of observations, due to the fact that objects occlude themselves and each 2D observation has finite coverage of 3D scene. To address this issue, DeepMind came up with framework of conditional generative modelling to train powerful stochastic generators. Here is an example demonstrating the algorithm's ability to reconstruct 3D scenes with handful of 2D observations.</br>
-![Rendering Example](https://storage.googleapis.com/deepmind-live-cms/documents/gif_1.gif)
-
+![](extras/gif_1.gif)
