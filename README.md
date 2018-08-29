@@ -39,3 +39,8 @@ To sample latent variables we need to have a distribution, which can represent o
 6. Add KL divergence to reconstruction loss between generated and actual image, to get objective function
 7. Minimize the objective function using backpropagation
 This ensures that we have prior model which can infer details like shape, color, position and hence generate arbritary scene given any viewpoint and scene representation. As we have priors ready, we can sample even without having representation, i.e no image from scene is provided.
+
+## References:
+Refer this repository which also includes pretrained model (trained on 20% data) as entire dataset is really huge.</br>
+![https://github.com/wohlert/generative-query-network-pytorch](https://github.com/wohlert/generative-query-network-pytorch)
+
